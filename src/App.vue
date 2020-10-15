@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-  <!-- <h1>Slider app</h1> -->
+  <h3>Slider app</h3>
   <Carousel 
   :carousel_data="sliderItems"
   :interval="2000"
