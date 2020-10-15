@@ -2,9 +2,9 @@
   <div class="wrapper">
     <div class="carousel" :style="{'margin-left': '-' + (102 * currentSlideIndex) + '%' }">
       <CarouselItem
-    v-for="item in carousel_data"
-    :key="item.id"
-    :item_data="item"
+      v-for="item in carousel_data"
+      :key="item.id"
+      :item_data="item"
     />
     </div>
     <button class="cbtn" @click="prevSlide">Prev</button>
